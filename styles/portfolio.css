@@ -1,0 +1,160 @@
+:root {
+  --primary-color: rgb(13, 146, 241);
+  --secondary-color: rgb(104, 241, 207);
+  --third-color: rgb(224, 140, 231);
+  --fourth-color: white;
+  --gradient: linear-gradient(
+    106.8deg,
+    rgb(117, 255, 220) 6%,
+    rgb(163, 216, 255) 47.6%,
+    rgb(248, 215, 251) 87.8%
+  );
+  --box-shadow: 5px 5px 10px rgb(30, 50, 120);
+  --first-font-family: "Laila", sans-serif;
+  --second-font-family: "Poppins", sans-serif;
+  --third-font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--first-font-family);
+  max-width: 900px;
+  padding: 0 20px;
+  background: var(--gradient);
+  margin: 50px auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: var(--second-font-family);
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+  opacity: 0.2px;
+  font-family: var(--third-font-family);
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.links a {
+  margin: 30px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.contact-link {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link:hover {
+  background: var(--third-color);
+}
+
+.about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+  color: var(--fourth-color);
+}
+
+.about-link:hover {
+  background: var(--third-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.homepage-link:hover {
+  color: var(--third-color);
+}
+.about-paragraph {
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 15px;
+}
+
+.first-link {
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  background: var(--third-color);
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.second-link {
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  background: var(--third-color);
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: var(--third-color);
+}
+
+.hero,
+.inquiry {
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: rgb(16, 16, 16);
+  color: var(--primary-color);
+}
+
+.code-link a,
+.contact-container a {
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
