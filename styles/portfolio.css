@@ -4,10 +4,9 @@
   --third-color: rgb(224, 140, 231);
   --fourth-color: white;
   --gradient: linear-gradient(
-    106.8deg,
-    rgb(117, 255, 220) 6%,
-    rgb(163, 216, 255) 47.6%,
-    rgb(248, 215, 251) 87.8%
+    178.6deg,
+    rgb(20, 36, 50) 11.8%,
+    rgb(124, 143, 161) 83.8%
   );
   --box-shadow: 5px 5px 10px rgb(30, 50, 120);
   --first-font-family: "Laila", sans-serif;
@@ -30,8 +29,9 @@ h3 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 74px;
   font-family: var(--second-font-family);
+  color: var(--secondary-color);
 }
 
 h2 {
