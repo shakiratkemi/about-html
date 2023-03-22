@@ -46,6 +46,14 @@ h3 {
   color: var(--secondary-color);
 }
 
+.hero {
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: rgb(16, 16, 16);
+  color: var(--primary-color);
+}
+
 .links {
   display: flex;
   margin-top: 40px;
@@ -130,13 +138,39 @@ h3 {
   color: var(--secondary-color);
 }
 
-.hero,
-.inquiry {
-  padding: 20px 15px;
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  background: rgb(16, 16, 16);
+footer {
+  margin: 60px 0;
+}
+
+footer .inquiry {
+  background: rgb(245, 239, 249);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
   color: var(--primary-color);
+}
+
+footer .email-link:hover {
+  text-decoration: underline;
+  color: var(--third-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--third-color);
 }
 
 .code-link a,
