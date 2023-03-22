@@ -144,8 +144,12 @@ footer {
 
 footer .inquiry {
   background: rgb(245, 239, 249);
-  padding: 30px;
+  padding: 30px 120px;
   border-radius: 10px;
+}
+
+footer .inquiry p {
+  margin: 0;
 }
 
 footer .email-link {
@@ -166,7 +170,7 @@ footer .social-links a {
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 30px;
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
