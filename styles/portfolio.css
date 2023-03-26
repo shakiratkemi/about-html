@@ -224,4 +224,8 @@ nav li.active a {
   p {
     text-align: center;
   }
+
+  nav ul {
+    font-size: 13px;
+  }
 }
