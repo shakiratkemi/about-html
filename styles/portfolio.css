@@ -168,7 +168,7 @@ footer .social-links a {
   margin: 20px 20px;
   color: var(--secondary-color);
   padding: 10px 14px;
-  border-radius: 50%;
+  border-radius: 80%;
   font-size: 30px;
   transition: all 100ms ease-in-out;
 }
@@ -183,6 +183,9 @@ footer .social-links a:hover {
   color: rgb(16, 16, 16);
 }
 
+.code-link a:hover {
+  color: var(--secondary-color);
+}
 nav {
   padding: 20px 0;
 }
